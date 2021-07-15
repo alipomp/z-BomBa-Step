@@ -1,0 +1,93 @@
+
+
+/*#region    ======================== [ خطوات تنصيب وإنشاء المشروع ] ========================*/
+/*
+||           1) composer create-project laravel/laravel Project-Name        ==> إنشاء المشروع
+||           || composer global require laravel/installer  ||| laravel new roject-Name                 ==> طريقة أخرا لإنشاء المشروع
+||           2) dc Project-Name\                                            ==> فتح فولدر المشروع
+||           3) code .                                                      ==> فتح المشروع في المحرر
+||           4) database                                                    ==> إنشاء قاعدة البيانات
+إضافة اسم قاعدة البيانات إلي ملف .env لضبت الإتصال (5           ||
+                إضافة الاوامر الالية داخل ملف app\Providers\AppServiceProvider.php
+||              use Illuminate\Support\Facades\Schema;                      ==> في الاعلي
+||              Schema::defaultStringLength(191);                           ==> داخل دالة function boot()
+||
+||           7) composer require laravel/ui --dev                           ==> تثبيت الفيو داخل اللارافيل veu
+||           8) php artisan ui vue --auth                                   ==> إنشاء ملفات الفو
+||           9) npm install                                                 ==> تثبيت npm
+||           10) npm run dev                                                ==> تثبيت mix
+||                  if error in run dev
+||                      1) npm remove laravel-mix
+||                      2) npm install laravel-mix --save-dev
+||                      3) npm install cross-env --save-dev
+||                      4) npm install && npm run dev
+||                      npm remove laravel-mix && npm install laravel-mix --save-dev && npm install cross-env --save-dev && npm install && npm run dev
+||           11) composer update                                            ==> لإعادة النظر في ملف الباكتج وتحميل اوحذف الناقص
+||
+*/
+/*#endregion ================================================================*/
+
+/*#region    ======================== [ أهم الاوامر ] ========================*/
+/*
+||           php artisan serve                                  ==> تشغيل المشروع
+||           php artisan make:model Name -m                     ==> لإنشاء والتعديل علي بنية الميديول والكلاسات للجدول في المشروع
+||           php artisan make:model Name -mcr                   ==> لإنشاء بنية الميديول والكلاسات والجدول في المشروع
+||           php artisan migrate                                ==> لإنشاء والتعديل علي بنية الجدول في قاعدة البيانات
+||           php artisan migrate:fresh                          ==> التعديل علي بنية الجدول في قاعدة البيانات
+||           php artisan make:controller NameController         ==> لإنشاء والتعديل علي بنية الجدول في قاعدة البيانات
+||
+||
+||           php artisan schema:dump --prune                    ==> تحويل جداول قاعدة البيانات إلي موديول وكلاسات داخل المشروع
+||
+||
+||
+||
+||
+||
+||           c:\Windows\System32\drivers\etc\hosts
+||           C:\xampp\apache\conf\extra\httpd-vhosts.conf     >>>>> Test in cmd ::>> C:\>cd xampp\apache\bin && httpd.exe -t
+||
+||
+*/
+/*#endregion ================================================================*/
+
+
+/*#region    ======================== [ vue ] ========================*/
+/*
+||
+||
+||
+||           npm install vue-router                                ==>
+||
+||
+*/
+/*#endregion ================================================================*/
+
+/*#region    ======================== [ github ] ========================*/
+/*
+||           Pass: A*******li
+||           git init                                ==> لتهيء وانشاء الملف داخل المشروع وتنفذ مرة واحدة في المشروع
+||           git add .                               ==> لرفع المشروع علي اللوكل ربزتري
+||           git add "XXXX"                          ==> لرفع ملف معين بالاسم
+||           git commit -am "XXXXX"                  ==> لإضافة تعليق
+||           git diff                                ==> لعرض جميع التعديلات والتغيرات التي تمت علي المشروع 
+||           git remote add origin https://github.com/alipomp/XXXXX.git
+||                                                   ==> للرفع علي الجت هب
+||           git push -u origin main                 ==> لإعادة الرفع بعد التعديل 
+||           git push --force origin master          ==> لإعادة الرفع بعد التعديل او
+||
+||
+||
+||
+*/
+/*#endregion ================================================================*/
+
+/*#region    ======================== [  ] ========================*/
+/*
+||
+||
+||
+||
+||
+*/
+/*#endregion ================================================================*/
